@@ -49,7 +49,6 @@ let loginUser = () => {
 
     let foundUser = user.find(element => element.login === currentLogin && element.password === currentPassword);
 
-    // Проверяем результат
     if (foundUser) {
         resultMessage.textContent = `Добро пожаловать, ${foundUser.name}! Авторизация успешна.`;
     } else {
