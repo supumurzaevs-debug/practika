@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="shapka">
+        <h1>Регистрация</h1>
+        <p>Заполните данные в форме</p>
+    </div>
+    <div class="menu">
+        <a href="index.html">Главная</a>
+        <a href="stoicizm.html">Стоицизм</a>
+        <a href="gedonizm.html">Гедонизм</a>
+        <a href="nihilizm.html">Нигилизм</a>
+        <a href="ekzistencializm.html">Экзистенциализм</a>
+        <a href="vostok.html">Восток</a>
+        <a href="smysl-zhizni.html">Смысл жизни</a>
+        <a href="vremya.html">Время</a>
+        <a href="velikie.html">Философы</a>
+        <a href="mysli.html">Мысль дня</a>
+        <a href="registraciya.html">Регистрация</a>
+    </div>
+    <div class="blok-kontenta">
+        <h2>Создание аккаунта</h2>
+        <form id="formaRegistracii">
+            <label for="fio">ФИО:</label>
+            <input type="text" id="fio" placeholder="Иванов Иван Иванович">
+            <p class="oshibka" id="oshibkaFio"></p>
+
+            <label for="telefon">Номер телефона:</label>
+            <input type="text" id="telefon" placeholder="+996555123456">
+            <p class="oshibka" id="oshibkaTelefon"></p>
+
+            <label for="pochta">Электронная почта:</label>
+            <input type="text" id="pochta" placeholder="name@example.com">
+            <p class="oshibka" id="oshibkaPochta"></p>
+
+            <button class="knopka1" type="submit">Зарегистрироваться</button>
+            <p id="rezultat"></p>
+        </form>
+    </div>
+    <div class="podval">
+        <p>«Философия безмятежности» (Джон Селларс), «Как быть стоиком» (Массимо Пильюччи), «Рассуждение о методе» (Рене Декарт) и прочие</p>
+    </div>
+</body>
+</html>

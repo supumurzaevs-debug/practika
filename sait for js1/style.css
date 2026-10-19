@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    background-color: #eeeeee;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.shapka {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    background-color: #444444;
+    padding: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+    background-color: #555555;
+}
+
+.menu a:hover {
+    background-color: #666666;
+}
+
+.blok-kontenta {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.vydelenny-tekst {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 3px solid #333;
+}
+
+.knopka1 {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.knopka1:hover {
+    background-color: #0056b3;
+}
+
+.podval {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+#formaRegistracii label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#formaRegistracii input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+}
+
+.oshibka {
+    color: red;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+#rezultat {
+    margin-top: 15px;
+}
+
+.uspeshno {
+    color: green;
+    font-weight: bold;
+}
